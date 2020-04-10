@@ -10,13 +10,36 @@ import SwiftUI
 
 struct ContentView: View {
     let user = User()
+    @State private var selectedTab = 0
     var body: some View {
-        VStack {
+        /*VStack {
             EditView()
             DisplayView()
         }
             .environmentObject(user)
-    .padding()
+ 
+ */
+        TabView (selection: $selectedTab){
+            EditView()
+            .environmentObject(user)
+                .onTapGesture {
+                    self.selectedTab = 1
+                }
+            .padding()
+                .tabItem {
+                    Image(systemName: "star")
+                    Text("One")
+                }
+            .tag(0)
+            
+            DisplayView().environmentObject(user)
+                .tabItem {
+                    Image(systemName: "star")
+                    Text("two")
+                }
+        .tag(1)
+        }
+    
     }
 }
 
