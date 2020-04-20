@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD477CCB244D45270087C20D /* ProspectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD477CCA244D45270087C20D /* ProspectView.swift */; };
+		FD477CCD244D45440087C20D /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD477CCC244D45440087C20D /* MeView.swift */; };
 		FDB300D42440D0D0000AB06C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB300D32440D0D0000AB06C /* AppDelegate.swift */; };
 		FDB300D62440D0D0000AB06C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB300D52440D0D0000AB06C /* SceneDelegate.swift */; };
 		FDB300D82440D0D0000AB06C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB300D72440D0D0000AB06C /* ContentView.swift */; };
 		FDB300DA2440D0D5000AB06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB300D92440D0D5000AB06C /* Assets.xcassets */; };
 		FDB300DD2440D0D5000AB06C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB300DC2440D0D5000AB06C /* Preview Assets.xcassets */; };
 		FDB300E02440D0D5000AB06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB300DE2440D0D5000AB06C /* LaunchScreen.storyboard */; };
-		FDB300E82440D57C000AB06C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB300E72440D57C000AB06C /* User.swift */; };
-		FDB300EA2440D5CB000AB06C /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB300E92440D5CB000AB06C /* EditView.swift */; };
-		FDB300EC2440D66C000AB06C /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB300EB2440D66C000AB06C /* DisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD477CCA244D45270087C20D /* ProspectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectView.swift; sourceTree = "<group>"; };
+		FD477CCC244D45440087C20D /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		FDB300D02440D0D0000AB06C /* HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotProspects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB300D32440D0D0000AB06C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB300D52440D0D0000AB06C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,9 +28,6 @@
 		FDB300DC2440D0D5000AB06C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDB300DF2440D0D5000AB06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB300E12440D0D5000AB06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDB300E72440D57C000AB06C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		FDB300E92440D5CB000AB06C /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
-		FDB300EB2440D66C000AB06C /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +63,8 @@
 				FDB300D32440D0D0000AB06C /* AppDelegate.swift */,
 				FDB300D52440D0D0000AB06C /* SceneDelegate.swift */,
 				FDB300D72440D0D0000AB06C /* ContentView.swift */,
-				FDB300E72440D57C000AB06C /* User.swift */,
-				FDB300E92440D5CB000AB06C /* EditView.swift */,
-				FDB300EB2440D66C000AB06C /* DisplayView.swift */,
+				FD477CCC244D45440087C20D /* MeView.swift */,
+				FD477CCA244D45270087C20D /* ProspectView.swift */,
 				FDB300D92440D0D5000AB06C /* Assets.xcassets */,
 				FDB300DE2440D0D5000AB06C /* LaunchScreen.storyboard */,
 				FDB300E12440D0D5000AB06C /* Info.plist */,
@@ -155,12 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB300E82440D57C000AB06C /* User.swift in Sources */,
-				FDB300EA2440D5CB000AB06C /* EditView.swift in Sources */,
+				FD477CCB244D45270087C20D /* ProspectView.swift in Sources */,
 				FDB300D42440D0D0000AB06C /* AppDelegate.swift in Sources */,
-				FDB300EC2440D66C000AB06C /* DisplayView.swift in Sources */,
 				FDB300D62440D0D0000AB06C /* SceneDelegate.swift in Sources */,
 				FDB300D82440D0D0000AB06C /* ContentView.swift in Sources */,
+				FD477CCD244D45440087C20D /* MeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
