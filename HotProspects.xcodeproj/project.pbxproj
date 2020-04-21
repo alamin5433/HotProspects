@@ -15,6 +15,7 @@
 		FDB300DA2440D0D5000AB06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB300D92440D0D5000AB06C /* Assets.xcassets */; };
 		FDB300DD2440D0D5000AB06C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB300DC2440D0D5000AB06C /* Preview Assets.xcassets */; };
 		FDB300E02440D0D5000AB06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB300DE2440D0D5000AB06C /* LaunchScreen.storyboard */; };
+		FDDAFB02244EC38D0012FBA1 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDAFB01244EC38D0012FBA1 /* Prospect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FDB300DC2440D0D5000AB06C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDB300DF2440D0D5000AB06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB300E12440D0D5000AB06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDAFB01244EC38D0012FBA1 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				FDB300D72440D0D0000AB06C /* ContentView.swift */,
 				FD477CCC244D45440087C20D /* MeView.swift */,
 				FD477CCA244D45270087C20D /* ProspectView.swift */,
+				FDDAFB01244EC38D0012FBA1 /* Prospect.swift */,
 				FDB300D92440D0D5000AB06C /* Assets.xcassets */,
 				FDB300DE2440D0D5000AB06C /* LaunchScreen.storyboard */,
 				FDB300E12440D0D5000AB06C /* Info.plist */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD477CCB244D45270087C20D /* ProspectView.swift in Sources */,
+				FDDAFB02244EC38D0012FBA1 /* Prospect.swift in Sources */,
 				FDB300D42440D0D0000AB06C /* AppDelegate.swift in Sources */,
 				FDB300D62440D0D0000AB06C /* SceneDelegate.swift in Sources */,
 				FDB300D82440D0D0000AB06C /* ContentView.swift in Sources */,
